@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(239, 212, 247);
+    text-align: center;
+}
+h1, h4{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: rgb(76, 5, 143);
+}
+li{
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+}
+conteiner{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 100px, 200px, 300px;
+}
